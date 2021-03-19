@@ -23,7 +23,7 @@ h1 {
     width: 200px;
     background-color: #9FA2B2;
     position: absolute;
-    border: 1px solid black;
+    border: 1px solid white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,7 +32,7 @@ h1 {
     height: 120px;
     width: 400px;
     background-color:#DBC2CF;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 .bed {
     background-color: #00a884;
