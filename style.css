@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family:'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: .8em;
+    background-color: black;
+    color: white;
+}
+h1 {
+    font-size: 1.5em;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #16262E;
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, grey 1px, transparent 1px),
+      linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: #9FA2B2;
+    position: absolute;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fourty .box{
+    height: 120px;
+    width: 400px;
+    background-color:#DBC2CF;
+    border: 1px solid black;
+}
+.bed {
+    background-color: #00a884;
+    height: 66px;
+    width: 50px;
+}
+.couch {
+    height: 34px;
+    width: 72px;
+    background-color: #387c6d;
+}
+.door {
+    background-color: #2E4756;
+    width: 30px;
+    height: 30px;
+    clip-path: circle(30px at top right);
+}
+
+.rotated {
+    transform: rotate(90deg);
+}
