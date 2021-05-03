@@ -8,6 +8,7 @@ body {
 }
 h1 {
     font-size: 1.5em;
+    padding: .5em;
 }
 .container {
     height: 100vh;
@@ -19,9 +20,9 @@ h1 {
       linear-gradient(to bottom, grey 1px, transparent 1px);
 }
 .box{
-    height: 100px;
+    height: 80px;
     width: 200px;
-    background-color: #9FA2B2;
+    background-color: #7e8397;
     position: absolute;
     border: 1px solid white;
     display: flex;
@@ -29,9 +30,9 @@ h1 {
     justify-content: center;
 }
 .fourty .box{
-    height: 120px;
+    height: 80px;
     width: 400px;
-    background-color:#DBC2CF;
+    background-color:#ad8c9e;
     border: 1px solid white;
 }
 .bed {
@@ -48,9 +49,18 @@ h1 {
     background-color: #2E4756;
     width: 30px;
     height: 30px;
-    clip-path: circle(30px at top right);
+    clip-path: circle(30px at top left);
 }
 
 .rotated {
     transform: rotate(90deg);
+}
+.rotatedAgain {
+    transform: rotate(180deg);
+}
+.rotatedAgainAgain {
+    transform: rotate(270deg);
+}
+.rotatedOriginal {
+    transform: rotate(0);
 }
